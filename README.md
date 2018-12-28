@@ -18,9 +18,11 @@ $ pip install recsys_models
 ```
 
 ## Dependencies
-- [`tensorflow`](https://www.tensorflow.org/install/)
+- [`Python 3+`](https://www.python.org/) (3.6 may be required for Tensorflow-GPU on Windows)
+- [`tensorflow`](https://www.tensorflow.org/install/) or [`tensorflow-gpu`](https://www.tensorflow.org/install/gpu)
 - [`numpy`](http://www.numpy.org/)
 - [`pandas`](https://pandas.pydata.org/pandas-docs/stable/index.html)
+- [`Jupyter`/`JupyterLab`](https://jupyter.org/) (If you want to run the notebook)
 
 ## Sample Usage
 See the [`sample_pipeline Jupyter Notebook`](https://github.com/shuyangli94/RecSysModels/blob/master/sample_pipeline.ipynb) for sample usage. In order to run this, you will need to download the [MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/) released in 2003 by the wonderful folks at the [GroupLens Lab](https://grouplens.org/) at the University of Minnesota.
