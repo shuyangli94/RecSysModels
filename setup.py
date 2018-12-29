@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # Get the long description from README.md
 with open('README.md', encoding='utf-8') as f:
@@ -9,8 +9,8 @@ with open('requirements.txt', 'r') as f:
 
 setup(
     name = 'recsys_models',
-    packages = ['recsys_models'],
-    version = '0.1.2',
+    packages = find_packages(),
+    version = '0.1.3',
     description = 'TensorFlow Recommender Systems Models for Implicit Feedback',
     author = 'Shuyang Li',
     author_email = 'shuyangli94@gmail.com',
